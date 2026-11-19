@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رسالة شكر وعرفان | حلقات جامع عمر بن الخطاب وجمعية تعلّم - المدينة المنورة</title>
+    
+    <!-- تحميل الخطوط العربية الفاخرة من Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&family=Reem+Kufi:wght@500;600;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- مكتبة Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- مكتبة أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- إعدادات الألوان والخطوط المخصصة المستوحاة من المسجد النبوي الشريف -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        madinah: {
+                            emerald: '#064e3b',
+                            deep: '#022c22',
+                            forest: '#043927',
+                            gold: '#d4af37',
+                            goldLight: '#f3e5ab',
+                            goldDark: '#aa8220',
+                            ivory: '#fdfbf7',
+                            parchment: '#f7f3e8',
+                            sand: '#ede4d0'
+                        }
+                    },
+                    fontFamily: {
+                        amiri: ['Amiri', 'serif'],
+                        ruqaa: ['Aref Ruqaa', 'serif'],
+                        kufi: ['Reem Kufi', 'sans-serif'],
+                        tajawal: ['Tajawal', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'gold-glow': '0 0 25px rgba(212, 175, 55, 0.25)',
+                        'gold-strong': '0 10px 40px -10px rgba(212, 175, 55, 0.45)',
+                        'emerald-card': '0 20px 50px -15px rgba(2, 44, 34, 0.12)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* أنماط الزخارف الإسلامية والحركات الانسيابية */
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #fdfbf7;
+            color: #1f2937;
+            overflow-x: hidden;
+        }
+
+        /* خلفية الزخرفة الهندسية الإسلامية الدقيقة */
+        .islamic-pattern-bg {
+            background-color: #022c22;
+            background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23d4af37' stroke-width='0.75' stroke-opacity='0.14'%3E%3Cpath d='M40 0l11.7 28.3L80 40 51.7 51.7 40 80 28.3 51.7 0 40l28.3-11.7L40 0zm0 15.5L32.2 32.2 15.5 40l16.7 7.8L40 64.5l7.8-16.7L64.5 40l-16.7-7.8L40 15.5z'/%3E%3Ccircle cx='40' cy='40' r='6'/%3E%3Cpath d='M0 0l15 15M80 0L65 15M0 80l15-15M80 80L65 65'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .islamic-pattern-light {
+            background-color: #fdfbf7;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23d4af37' stroke-width='0.6' stroke-opacity='0.18'%3E%3Cpath d='M30 0l8.8 21.2L60 30l-21.2 8.8L30 60l-8.8-21.2L0 30l21.2-8.8L30 0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* تدرج ذهبي للنصوص الفاخرة */
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 45%, #aa8220 75%, #f3e5ab 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: shineGold 6s linear infinite;
+        }
+
+        @keyframes shineGold {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        /* إطار القوس الإسلامي (المحراب) */
+        .mihrab-arch {
+            border-radius: 50% 50% 1.5rem 1.5rem / 28% 28% 1.5rem 1.5rem;
+        }
+
+        /* حركة الطفو اللطيفة للزخارف */
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+        }
+        .animate-float {
+            animation: floatSlow 7s ease-in-out infinite;
+        }
+
+        /* حركة نبض النور الذهبي */
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(212, 175, 55, 0.25); }
+            50% { box-shadow: 0 0 40px rgba(212, 175, 55, 0.55); }
+        }
+        .glow-pulse {
+            animation: pulseGlow 4s ease-in-out infinite;
+        }
+
+        /* حركات الظهور التدريجي عند التمرير */
+        .reveal {
+            opacity: 0;
+            transform: translateY(35px);
+            transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-scale {
+            opacity: 0;
+            transform: scale(0.94);
+            transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .reveal-scale.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* بطاقة التقدير مع تأثير اللمعان عند التحويم */
+        .tribute-card {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
+        }
+        .tribute-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -100%;
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.14), transparent);
+            transform: skewX(-25deg);
+            transition: right 0.75s ease;
+            pointer-events: none;
+        }
+        .tribute-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 22px 45px -12px rgba(6, 78, 59, 0.18), 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+        .tribute-card:hover::before {
+            right: 140%;
+        }
+
+        /* تخصيص شريط التمرير */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #022c22;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #d4af37, #aa8220);
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-madinah-gold selection:text-madinah-deep bg-madinah-ivory">
+
+    <!-- لوحة الجزيئات الذهبية العائمة في الخلفية -->
+    <canvas id="goldenParticlesCanvas" class="fixed inset-0 pointer-events-none z-40"></canvas>
+
+    <!-- حاوية الصفحة المتجاوبة للموبايل والدسکتاپ (Mobile-First + Desktop Excellence) -->
+    <main class="w-full min-h-screen bg-madinah-ivory overflow-x-hidden relative">
+
+    <!-- القسم الرئيسي (Hero Section) - يبدأ مباشرة من أعلى الشاشة بدون هدر -->
+    <section id="top" class="relative islamic-pattern-bg text-madinah-ivory pt-12 pb-20 md:pt-16 md:pb-24 px-5 sm:px-8 overflow-hidden">
+        <!-- هالة ضوئية خلفية مستوحاة من أنوار الحرم النبوي -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[90%] max-w-3xl h-80 bg-madinah-gold/15 blur-[100px] rounded-full pointer-events-none"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto text-center">
+            
+            <!-- البسملة بخط الرقعة المزخرف -->
+            <div class="mb-6 animate-float">
+                <p class="font-ruqaa text-2xl sm:text-3xl md:text-4xl text-madinah-goldLight drop-shadow">
+                    بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                </p>
+            </div>
+
+            <!-- شارة الموقع المبارك -->
+            <div class="inline-flex flex-col sm:flex-row items-center gap-1.5 sm:gap-3 px-5 py-2.5 rounded-2xl sm:rounded-full bg-madinah-emerald/85 border border-madinah-gold/40 text-madinah-goldLight text-xs sm:text-sm mb-7 shadow-gold-glow">
+                <div class="flex items-center gap-1.5 font-bold">
+                    <i class="fa-solid fa-mosque text-madinah-gold"></i>
+                    <span>المدينة المنورة • حي المبعوث</span>
+                </div>
+                <span class="hidden sm:inline text-madinah-gold/50">|</span>
+                <span class="text-[11px] sm:text-xs text-emerald-100/95">حلقات جامع عمر بن الخطاب رضي الله عنه</span>
+            </div>
+
+            <!-- العنوان الرئيسي الكبير -->
+            <h1 class="font-kufi text-2xl sm:text-4xl md:text-5xl font-bold leading-snug mb-5">
+                <span class="text-gold-gradient block mb-2">رسالة شكرٍ وعرفانٍ ووفاء</span>
+                <span class="text-white text-xl sm:text-2xl md:text-3xl font-amiri font-normal">إلى صُنّاع الأثر وحُماة الذِّكر الحكيم</span>
+            </h1>
+
+            <!-- فقرة تمهيدية بليغة -->
+            <p class="max-w-3xl mx-auto text-sm sm:text-base md:text-lg text-emerald-100/90 leading-relaxed font-light mb-9">
+                تقف الكلماتُ إجلالاً، وتنحني العباراتُ امتناناً أمام عطائكم المبارك وجهودكم السخية في رعاية كتاب الله تعالى، وتنشئة جيلٍ قرآنيٍّ متقنٍ في <strong class="text-madinah-goldLight font-semibold">حلقات جامع عمر بن الخطاب بحي المبعوث</strong>، تحت مظلة <strong class="text-madinah-goldLight font-semibold">الجمعية الخيرية لتحفيظ القرآن الكريم «تعلّم»</strong>.
+            </p>
+
+            <!-- ميدالية الحديث الشريف المزخرفة -->
+            <div class="max-w-2xl mx-auto relative">
+                <div class="p-[2px] rounded-3xl bg-gradient-to-r from-madinah-gold/40 via-madinah-gold to-madinah-gold/40 glow-pulse">
+                    <div class="bg-madinah-deep/95 rounded-[1.4rem] px-5 py-6 sm:px-8 sm:py-7 border border-madinah-gold/20 relative overflow-hidden">
+                        <i class="fa-solid fa-star-and-crescent text-madinah-gold/20 text-2xl sm:text-3xl absolute top-3 right-4"></i>
+                        <i class="fa-solid fa-kaaba text-madinah-gold/15 text-2xl sm:text-3xl absolute bottom-3 left-4"></i>
+                        
+                        <p class="text-xs tracking-wider text-madinah-gold mb-2 font-semibold">قال رسول الله ﷺ</p>
+                        <blockquote class="font-amiri text-2xl sm:text-3xl md:text-4xl text-madinah-goldLight font-bold leading-snug mb-2">
+                            «خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ»
+                        </blockquote>
+                        <p class="text-[11px] sm:text-xs text-emerald-200/75">رواه البخاري — وسامُ شرفٍ يطوّق أعناقكم في الدنيا والآخرة</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- زر الانتقال السريع المتوافق مع اللمس والشاشات الكبيرة -->
+            <div class="mt-9 flex justify-center">
+                <a href="#institutional-tributes" class="w-full sm:w-auto sm:min-w-[280px] py-3.5 px-7 rounded-2xl bg-madinah-gold text-madinah-deep font-bold text-sm sm:text-base shadow-gold-strong hover:bg-madinah-goldLight active:scale-95 transition-all flex items-center justify-center gap-2.5">
+                    <span>كلمات التقدير والعرفان</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- فاصل موجي ذهبي سفلي -->
+        <div class="absolute bottom-0 inset-x-0 overflow-hidden leading-none">
+            <svg viewBox="0 0 1440 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-7 sm:h-10">
+                <path d="M0 70H1440V25C1200 68 960 0 720 25C480 50 240 0 0 25V70Z" fill="#fdfbf7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- قسم مقدمة الفضل والشرف (Hadith & Meaning) -->
+    <section id="hadith" class="py-14 md:py-20 px-5 sm:px-8 islamic-pattern-light relative">
+        <div class="max-w-6xl mx-auto">
+            <div class="max-w-3xl mx-auto text-center mb-12 reveal">
+                <span class="inline-block text-madinah-goldDark font-bold text-xs sm:text-sm tracking-wider mb-2">✦ مِنْ جِوَارِ الْمُصْطَفَى ﷺ ✦</span>
+                <h2 class="font-kufi text-xl sm:text-2xl md:text-3xl text-madinah-deep font-bold mb-3.5 leading-snug">
+                    مَنْ يُشْغَلُ بِالْقُرْآنِ أَعْطَاهُ اللَّهُ أَفْضَلَ مَا يُعْطِي السَّائِلِينَ
+                </h2>
+                <div class="w-28 h-1 bg-gradient-to-r from-transparent via-madinah-gold to-transparent mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                    في رحاب المدينة المنورة، حيث نزل الوحي وسطع نور الرسالة، تتواصل مسيرة العطاء القرآني بفضل الله ثم بجهود رجالٍ نذروا أوقاتهم وفكرهم لخدمة كتاب الله وتعليمه لأبناء الأمة.
+                </p>
+            </div>
+
+            <!-- 3 ركائز للعطاء القرآني (عمودية للموبايل و3 أعمدة متناسقة على الدسکتاپ) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- الركيزة الأولى -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-emerald-card text-center reveal">
+                    <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-madinah-deep text-madinah-gold flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-landmark"></i>
+                    </div>
+                    <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep mb-2.5">رعايةٌ مؤسسيةٌ رائدة</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        دعمٌ متواصل وتخطيطٌ مبارك من مسؤولي <strong class="text-madinah-emerald">جمعية تعلّم القرآنية</strong> للارتقاء بجودة التعليم القرآني ومخرجاته.
+                    </p>
+                </div>
+
+                <!-- الركيزة الثانية -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-emerald-card text-center reveal">
+                    <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-madinah-deep text-madinah-gold flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
+                    <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep mb-2.5">بيئةٌ إيمانيةٌ حاضنة</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        تنظيمٌ متقن ومتابعةٌ حثيثة من إدارة ومشرفي <strong class="text-madinah-emerald">جامع عمر بن الخطاب بحي المبعوث</strong> تهيئ للطلاب السكينة والانضباط.
+                    </p>
+                </div>
+
+                <!-- الركيزة الثالثة -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-emerald-card text-center reveal">
+                    <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-madinah-deep text-madinah-gold flex items-center justify-center text-xl shadow-md">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+                    <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep mb-2.5">تعليمٌ وتربيةٌ وإتقان</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        صبرٌ جميل وعطاءٌ لا ينضب من <strong class="text-madinah-emerald">معلمي ومشايخ الحلقات</strong> في تصحيح التلاوة وتثبيت الحفظ وتهذيب الأخلاق.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم لوحات التكريم المؤسسية (عمود واحد في الموبايل وعمودان متجاوران في الدسکتاپ) -->
+    <section id="institutional-tributes" class="py-14 md:py-20 px-5 sm:px-8 bg-madinah-parchment border-y border-madinah-gold/25 relative">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-10 md:mb-14 reveal">
+                <span class="inline-block text-madinah-goldDark font-bold text-xs sm:text-sm tracking-wider mb-1.5">✦ أَوْسِمَةُ الشُّكْرِ وَالِامْتِنَانِ ✦</span>
+                <h2 class="font-kufi text-xl sm:text-2xl md:text-3xl text-madinah-deep font-bold leading-snug">
+                    لوحات التقدير والعرفان للمسؤولين والمشرفين
+                </h2>
+                <div class="w-28 h-1 bg-gradient-to-r from-transparent via-madinah-gold to-transparent mx-auto rounded-full mt-3"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                <!-- اللوحة الأولى: مسؤولو جمعية تعلّم القرآنية -->
+                <article id="taallam" class="bg-white rounded-[2rem] p-6 sm:p-8 border border-madinah-gold/35 shadow-emerald-card flex flex-col justify-between reveal-scale">
+                    <div class="space-y-6">
+                        <!-- المحراب الزخرفي العلوي -->
+                        <div class="w-full mihrab-arch islamic-pattern-bg p-6 sm:p-7 flex flex-col items-center justify-center text-center border-2 border-madinah-gold shadow-gold-strong">
+                            <div class="w-16 h-16 rounded-full bg-madinah-gold/15 border border-madinah-gold flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-award text-3xl text-madinah-gold"></i>
+                            </div>
+                            <span class="font-kufi text-lg sm:text-xl text-madinah-goldLight mb-1">جمعية تعلّم القرآنية</span>
+                            <span class="text-[11px] sm:text-xs text-emerald-200/85 mb-3">الجمعية الخيرية لتحفيظ القرآن الكريم بالمدينة المنورة</span>
+                            <div class="w-16 h-0.5 bg-madinah-gold/60 my-1.5"></div>
+                            <p class="font-amiri text-base sm:text-lg text-white/95 italic mt-1.5">
+                                «شُركاءُ الأجرِ وبُناةُ صروحِ التحفيظ في طيبة الطيبة»
+                            </p>
+                        </div>
+
+                        <!-- النص التقديري -->
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-madinah-emerald/10 text-madinah-emerald font-bold text-xs">
+                                <i class="fa-solid fa-star text-madinah-goldDark"></i>
+                                <span>تقديرٌ خاص لمسؤولي الجمعية</span>
+                            </div>
+
+                            <h3 class="font-kufi text-xl sm:text-2xl text-madinah-deep font-bold leading-snug">
+                                إلى مسؤولي إدارة الجمعية الخيرية لتحفيظ القرآن الكريم «تعلّم» وكل من ساهم في حلقات القرآن
+                            </h3>
+
+                            <p class="text-gray-700 text-sm sm:text-base leading-loose">
+                                نتقدم إليكم بأسمى آيات الشكر والتقدير، وأصدق عبارات الثناء والامتنان، على ما تبذلونه من جهودٍ مباركة ورؤيةٍ سديدة في الإشراف على حلقات القرآن الكريم بالمدينة المنورة، ودعمكم اللامحدود لحلقات <strong class="text-madinah-deep">جامع عمر بن الخطاب بحي المبعوث</strong>.
+                            </p>
+
+                            <p class="text-gray-700 text-sm sm:text-base leading-loose">
+                                لقد كان لحرصكم الدائم، وتوفيركم للبرامج التعليمية النوعية، وتحفيزكم المستمر للطلاب والمعلمين، الأثرُ البالغ في استمرار هذه المحاضن القرآنية المباركة وتخريج حفظةٍ متقنين لكتاب الله عز وجل.
+                            </p>
+
+                            <!-- نقاط التميز -->
+                            <div class="space-y-2.5 pt-1">
+                                <div class="flex items-start gap-2.5 p-3 rounded-2xl bg-madinah-ivory border border-madinah-gold/25">
+                                    <i class="fa-solid fa-circle-check text-madinah-goldDark mt-0.5 text-sm"></i>
+                                    <span class="text-xs sm:text-sm font-medium text-madinah-deep leading-relaxed">إشرافٌ مؤسسيٌّ متقن يرتقي بمستوى الحفظ والأداء</span>
+                                </div>
+                                <div class="flex items-start gap-2.5 p-3 rounded-2xl bg-madinah-ivory border border-madinah-gold/25">
+                                    <i class="fa-solid fa-circle-check text-madinah-goldDark mt-0.5 text-sm"></i>
+                                    <span class="text-xs sm:text-sm font-medium text-madinah-deep leading-relaxed">رعايةٌ شاملة تذلل الصعاب أمام طلاب العلم والقرآن</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- توقيع المرسل (الطريقة 1) -->
+                    <div class="mt-7 pt-5 border-t border-madinah-gold/30">
+                        <div class="flex items-center gap-3 p-3.5 sm:p-4 rounded-2xl bg-gradient-to-l from-madinah-parchment to-madinah-ivory border border-madinah-gold/40 shadow-sm">
+                            <div class="w-10 h-10 rounded-xl bg-madinah-deep text-madinah-gold flex items-center justify-center shrink-0 shadow">
+                                <i class="fa-solid fa-feather-pointed"></i>
+                            </div>
+                            <div>
+                                <span class="block text-[11px] font-semibold text-madinah-goldDark">مُقدَّم بكل محبة وتقدير من:</span>
+                                <p class="font-amiri text-base sm:text-lg font-bold text-madinah-deep leading-snug">
+                                    ولي أمر الطالب / أبو بكر عبد الله بلوشي
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- اللوحة الثانية: مسؤولو وإدارة جامع عمر بن الخطاب بحي المبعوث -->
+                <article id="mosque-admin" class="bg-gradient-to-br from-madinah-deep via-madinah-forest to-madinah-deep text-white rounded-[2rem] p-6 sm:p-8 border border-madinah-gold/45 shadow-2xl relative overflow-hidden flex flex-col justify-between reveal-scale">
+                    <div class="absolute -left-16 -bottom-16 w-64 h-64 rounded-full bg-madinah-gold/10 blur-3xl pointer-events-none"></div>
+
+                    <div class="space-y-6 relative z-10">
+                        <!-- بطاقة شرفية رمزية -->
+                        <div class="p-6 sm:p-7 rounded-3xl bg-madinah-deep/80 border-2 border-madinah-gold/50 text-center shadow-gold-glow">
+                            <div class="w-16 h-16 mx-auto mb-3.5 rounded-2xl bg-gradient-to-br from-madinah-gold to-madinah-goldDark text-madinah-deep flex items-center justify-center text-2xl shadow-lg">
+                                <i class="fa-solid fa-star-and-crescent"></i>
+                            </div>
+                            <h3 class="font-amiri text-2xl sm:text-3xl text-madinah-goldLight font-bold mb-1">
+                                جامع عمر بن الخطاب
+                            </h3>
+                            <p class="text-xs sm:text-sm text-emerald-200 mb-4">حي 'المبعوث' • المدينة المنورة</p>
+                            <div class="border-t border-madinah-gold/25 pt-4">
+                                <p class="font-amiri text-lg sm:text-xl text-white leading-relaxed">
+                                    «بُيُوتٌ أَذِنَ اللَّهُ أَنْ تُرْفَعَ وَيُذْكَرَ فِيهَا اسْمُهُ»
+                                </p>
+                                <span class="block text-[11px] sm:text-xs text-madinah-gold mt-2">جزاكم الله خير الجزاء على عمارة المسجد بالقرآن وأهله</span>
+                            </div>
+                        </div>
+
+                        <!-- النص التقديري -->
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-madinah-gold/15 border border-madinah-gold/40 text-madinah-goldLight font-bold text-xs">
+                                <i class="fa-solid fa-mosque text-madinah-gold"></i>
+                                <span>تقديرٌ وعرفان لإدارة الجامع والحلقات</span>
+                            </div>
+
+                            <h3 class="font-kufi text-xl sm:text-2xl text-gold-gradient font-bold leading-snug">
+                                إلى مسؤولي ومشرفي حلقات جامع عمر بن الخطاب رضي الله عنه (حي المبعوث)
+                            </h3>
+
+                            <p class="text-emerald-100/95 text-sm sm:text-base leading-loose">
+                                يا من جعلتم من <strong class="text-madinah-goldLight">جامع عمر بن الخطاب بحي المبعوث</strong> منارةً للهدى، وواحةً إيمانيةً عامرةً بتلاوة آيات الله آناء الليل وأطراف النهار؛ نشكركم من أعماق قلوبنا على تفانيكم في التنظيم، وحُسن المتابعة، وتهيئة كل سبل الراحة والسكينة لأبنائنا الطلاب.
+                            </p>
+
+                            <p class="text-emerald-100/90 text-sm sm:text-base leading-loose">
+                                إن ما نراه من انضباطٍ، وروحٍ أخويةٍ صادقة، وتواصلٍ بنّاء مع أولياء الأمور، هو ثمرةُ إخلاصكم وسعيكم الدؤوب ليكون هذا الجامع المبارك صرحاً قرآنياً يُشار إليه بالبنان في المدينة المنورة.
+                            </p>
+
+                            <div class="pt-1 flex flex-wrap gap-2">
+                                <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-madinah-gold/30 text-madinah-goldLight text-xs">
+                                    <i class="fa-solid fa-heart text-madinah-gold ml-1"></i> عنايةٌ أبوية بالطلاب
+                                </span>
+                                <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-madinah-gold/30 text-madinah-goldLight text-xs">
+                                    <i class="fa-solid fa-compass text-madinah-gold ml-1"></i> تنظيمٌ وإدارةٌ متميزة
+                                </span>
+                                <span class="px-3 py-1.5 rounded-xl bg-white/10 border border-madinah-gold/30 text-madinah-goldLight text-xs">
+                                    <i class="fa-solid fa-sparkles text-madinah-gold ml-1"></i> بيئةٌ محفزةٌ للإنجاز
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- توقيع المرسل (الطريقة 2) -->
+                    <div class="mt-7 pt-5 border-t border-madinah-gold/30 relative z-10">
+                        <div class="flex items-center gap-3 p-3.5 sm:p-4 rounded-2xl bg-madinah-deep/90 border border-madinah-gold/45 shadow-gold-glow">
+                            <div class="w-10 h-10 rounded-xl bg-madinah-gold text-madinah-deep flex items-center justify-center shrink-0 shadow">
+                                <i class="fa-solid fa-feather-pointed"></i>
+                            </div>
+                            <div>
+                                <span class="block text-[11px] font-semibold text-madinah-gold">بِتَقْدِيرٍ وَامْتِنَانٍ مِنْ:</span>
+                                <p class="font-amiri text-base sm:text-lg font-bold text-madinah-goldLight leading-snug">
+                                    وَالِدِ الطَّالِبِ / أبو بكر عبد الله بلوشي
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- القسم الثالث للتكريم: أساتذة ومشايخ حلقات التحفيظ -->
+    <section id="teachers" class="py-14 md:py-20 px-5 sm:px-8 islamic-pattern-light relative">
+        <div class="max-w-6xl mx-auto">
+            <!-- عنوان القسم -->
+            <div class="max-w-3xl mx-auto text-center mb-10 md:mb-12 reveal">
+                <span class="inline-block text-madinah-goldDark font-bold text-xs sm:text-sm tracking-wider mb-1.5">✦ تَاجُ الْوَقَارِ وَنُورُ الْقُلُوبِ ✦</span>
+                <h2 class="font-kufi text-xl sm:text-2xl md:text-3xl text-madinah-deep font-bold mb-3 leading-snug">
+                    إلى مشايخنا وأساتذتنا الكرام في حلقات التحفيظ
+                </h2>
+                <div class="w-28 h-1 bg-gradient-to-r from-transparent via-madinah-gold to-transparent mx-auto rounded-full mb-4"></div>
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                    أنتم الغيث الذي أروى قلوب الطلاب بآيات الذكر الحكيم، والقدوة الحسنة التي غرست فيهم حبَّ القرآن، والأدب، والهمة العالية.
+                </p>
+            </div>
+
+            <!-- أبيات شعرية في مدح معلم القرآن -->
+            <div class="max-w-4xl mx-auto mb-10 reveal">
+                <div class="bg-white rounded-3xl p-6 sm:p-9 border-2 border-madinah-gold/40 shadow-emerald-card text-center relative">
+                    <i class="fa-solid fa-quote-right text-2xl sm:text-3xl text-madinah-gold/30 absolute top-5 right-6"></i>
+                    <i class="fa-solid fa-quote-left text-2xl sm:text-3xl text-madinah-gold/30 absolute bottom-5 left-6"></i>
+                    
+                    <div class="font-amiri text-lg sm:text-2xl md:text-[1.65rem] text-madinah-deep space-y-3 leading-relaxed font-bold py-2">
+                        <p>يَا حَامِلَ الْقُرْآنِ قَدْ خَصَّكَ الرَّحْمَنُ بِالْفَضْلِ التِّلَادِ</p>
+                        <p>عَلَّمْتَنَا الْآيَاتِ نُورًا سَاطِعًا يَهْدِي الْقُلُوبَ إِلَى الرَّشَادِ</p>
+                        <p class="text-madinah-emerald">فَجَزَاكَ رَبُّ الْعَرْشِ خَيْرَ جَزَائِهِ وَكَسَاكَ تَاجَ الْعِزِّ يَوْمَ الْمَعَادِ</p>
+                    </div>
+
+                    <!-- توقيع المرسل (الطريقة 3) -->
+                    <div class="mt-5 pt-4 border-t border-madinah-gold/20 inline-flex items-center gap-2 text-xs sm:text-sm text-madinah-goldDark font-bold">
+                        <i class="fa-solid fa-heart text-madinah-gold"></i>
+                        <span>مِنْ قَلْبِ وَالِدِ الطَّالِبِ الدَّاعِي لَكُمْ</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- بطاقات تقدير جهود المعلمين مع الطلاب (3 أعمدة على الدسکتاپ) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- بطاقة 1 -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-sm reveal">
+                    <div class="flex items-center gap-3.5 mb-3.5">
+                        <div class="w-12 h-12 rounded-2xl bg-madinah-emerald/10 text-madinah-emerald flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-ear-listen"></i>
+                        </div>
+                        <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep">صبرٌ وسعةُ صدر</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        تستمعون لكل طالبٍ بأناةٍ ومحبة، تصحّحون المخارج وتقوّمون اللسان دون كللٍ أو ملل، حتى يستقيم النطق بكتاب الله غضّاً طريّاً كما أُنزل.
+                    </p>
+                </div>
+
+                <!-- بطاقة 2 -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-sm reveal">
+                    <div class="flex items-center gap-3.5 mb-3.5">
+                        <div class="w-12 h-12 rounded-2xl bg-madinah-emerald/10 text-madinah-emerald flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep">تربيةٌ قبل التلقين</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        لم يقتصر عطاؤكم على تحفيظ السطور، بل غرستم القرآن خُلُقاً وسلوكاً، فكنتم للطلاب آباءً ناصحين ومربين مخلصين.
+                    </p>
+                </div>
+
+                <!-- بطاقة 3 -->
+                <div class="tribute-card bg-white rounded-3xl p-6 sm:p-7 border border-madinah-gold/25 shadow-sm reveal">
+                    <div class="flex items-center gap-3.5 mb-3.5">
+                        <div class="w-12 h-12 rounded-2xl bg-madinah-emerald/10 text-madinah-emerald flex items-center justify-center text-lg shrink-0">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h3 class="font-amiri text-xl sm:text-2xl font-bold text-madinah-deep">بذلٌ للوقت والجهد</h3>
+                    </div>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        آثرتم الجلوس في حلقات الذكر لتعليم أبنائنا، محتسبين الأجر عند الله، فهنيئاً لكم هذا الاصطفاء العظيم في جوار رسول الله ﷺ.
+                    </p>
+                </div>
+            </div>
+
+            <!-- بطاقة شكر وتقدير خاصة للأستاذ محمد يحيى -->
+            <div class="max-w-4xl mx-auto mt-10 reveal-scale">
+                <div class="bg-gradient-to-br from-madinah-deep via-madinah-forest to-madinah-deep text-white rounded-[2rem] p-6 sm:p-9 border-2 border-madinah-gold/50 shadow-2xl relative overflow-hidden">
+                    <div class="absolute -left-12 -bottom-12 w-56 h-56 rounded-full bg-madinah-gold/10 blur-3xl pointer-events-none"></div>
+                    <div class="relative z-10 text-center space-y-4">
+                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-madinah-gold/15 border border-madinah-gold/40 text-madinah-goldLight font-bold text-xs sm:text-sm">
+                            <i class="fa-solid fa-star text-madinah-gold"></i>
+                            <span>شُكْرٌ وَتَقْدِيرٌ خَاصٌّ</span>
+                        </div>
+
+                        <h3 class="font-ruqaa text-2xl sm:text-3xl md:text-4xl text-gold-gradient font-bold leading-snug">
+                            إلى فضيلة الأستاذ الفاضل / محمد يحيى
+                        </h3>
+
+                        <p class="text-emerald-100/95 text-sm sm:text-base md:text-lg leading-loose max-w-2xl mx-auto">
+                            نتقدّم إليكم بجزيل الشكر ووافر العرفان على جهودكم المباركة، وعطائكم المخلص، ومتابعتكم الدؤوبة في تعليم كتاب الله ورعاية الطلاب في حلقات القرآن الكريم؛ فجزاكم الله خير الجزاء وبارك في علمكم وعملكم وجعله في موازين حسناتكم.
+                        </p>
+
+                        <!-- توقيع المرسل (الطريقة 4) -->
+                        <div class="pt-3">
+                            <div class="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-2xl bg-madinah-deep/90 border border-madinah-gold/45 shadow-gold-glow">
+                                <i class="fa-solid fa-feather-pointed text-madinah-gold text-sm"></i>
+                                <span class="font-amiri text-base sm:text-lg font-bold text-madinah-goldLight">
+                                    بِخَالِصِ الشُّكْرِ وَالدُّعَاءِ مِنْ: عَبْدِ اللَّهِ بَلُوشِي (وَلِيُّ أَمْرِ الطَّالِبِ)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الختام والدعاء الجامع (Footer) -->
+    <footer class="islamic-pattern-bg text-madinah-ivory pt-14 pb-12 px-5 sm:px-8 border-t-4 border-madinah-gold relative overflow-hidden">
+        <div class="max-w-3xl mx-auto text-center relative z-10">
+            
+            <div class="w-16 h-16 mx-auto mb-5 rounded-full bg-madinah-gold/15 border border-madinah-gold flex items-center justify-center text-madinah-gold text-2xl animate-float">
+                <i class="fa-solid fa-hands-praying"></i>
+            </div>
+
+            <h2 class="font-kufi text-xl sm:text-2xl md:text-3xl text-madinah-goldLight mb-5">
+                دعاءٌ خالصٌ من القلب
+            </h2>
+
+            <p class="font-amiri text-lg sm:text-2xl text-white/95 leading-loose mb-8">
+                «اللَّهُمَّ اجْزِ مَسْؤُولِي جَمْعِيَّةِ تَعَلُّمَ، وَإِدَارَةَ جَامِعِ عُمَرَ بْنِ الْخَطَّابِ، وَمُعَلِّمِي حَلَقَاتِ الْقُرْآنِ خَيْرَ الْجَزَاءِ، وَبَارِكْ فِي أَعْمَارِهِمْ وَأَعْمَالِهِمْ وَأَهْلِيهِمْ، وَاجْعَلِ الْقُرْآنَ الْعَظِيمَ رَبِيعَ قُلُوبِهِمْ، وَشَفِيعًا لَهُمْ يَوْمَ يَلْقَوْنَكَ.»
+            </p>
+
+            <div class="border-t border-madinah-gold/25 pt-6 space-y-2.5 text-xs sm:text-sm text-emerald-200/80">
+                <p>حلقات جامع عمر بن الخطاب رضي الله عنه — حي المبعوث</p>
+                <p class="text-madinah-goldLight font-medium">المدينة المنورة • جمعية تعلّم القرآنية</p>
+                <!-- توقيع المرسل (الطريقة 5) -->
+                <div class="pt-3">
+                    <p class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-madinah-gold/10 border border-madinah-gold/30 text-madinah-goldLight font-medium text-xs sm:text-sm">
+                        <i class="fa-solid fa-heart text-madinah-gold text-xs"></i>
+                        <span>مصمم ومبرمج بكل حب: والد الطالب أبو بكر عبد الله بلوشي</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </main>
+
+    <!-- السكربت التفاعلي والرسوم المتحركة -->
+    <script>
+        // 1. حركة الظهور التدريجي عند التمرير (Intersection Observer)
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.12,
+                rootMargin: '0px 0px -40px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal, .reveal-scale').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        // 2. نظام الجزيئات الذهبية العائمة وتأثير الاحتفاء بالدعاء
+        const canvas = document.getElementById('goldenParticlesCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let burstParticles = [];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        // إنشاء جزيئات نورانية هادئة
+        class AmbientParticle {
+            constructor() {
+                this.reset();
+            }
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2.2 + 0.6;
+                this.speedY = -(Math.random() * 0.35 + 0.1);
+                this.speedX = (Math.random() - 0.5) * 0.25;
+                this.alpha = Math.random() * 0.5 + 0.15;
+            }
+            update() {
+                this.y += this.speedY;
+                this.x += this.speedX;
+                if (this.y < -10) {
+                    this.y = canvas.height + 10;
+                    this.x = Math.random() * canvas.width;
+                }
+            }
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = this.alpha;
+                ctx.fillStyle = '#d4af37';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        // جزيئات الاحتفاء عند الضغط على زر الدعاء
+        class BurstParticle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                const angle = Math.random() * Math.PI * 2;
+                const velocity = Math.random() * 6 + 2;
+                this.vx = Math.cos(angle) * velocity;
+                this.vy = Math.sin(angle) * velocity - 2;
+                this.size = Math.random() * 4 + 2;
+                this.alpha = 1;
+                this.decay = Math.random() * 0.018 + 0.012;
+                this.color = Math.random() > 0.35 ? '#d4af37' : '#f3e5ab';
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.vy += 0.08; // جاذبية لطيفة
+                this.alpha -= this.decay;
+            }
+            draw() {
+                if (this.alpha <= 0) return;
+                ctx.save();
+                ctx.globalAlpha = this.alpha;
+                ctx.fillStyle = this.color;
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = '#d4af37';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        for (let i = 0; i < 45; i++) {
+            particles.push(new AmbientParticle());
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            burstParticles = burstParticles.filter(p => p.alpha > 0);
+            burstParticles.forEach(p => {
+                p.update();
+                p.draw();
+            });
+
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
+
+    </script>
+</body>
+</html>
